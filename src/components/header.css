@@ -1,0 +1,23 @@
+.header {
+    width: 550px;
+    height: 55px;
+    background: #F55A5A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+}
+
+p {
+    color: white;
+    font-weight: 500;
+    letter-spacing: -0.075em;
+}
+
+.earth {
+width: 24px;
+height: 24px;
+color: white;
+padding: 10px;
+}

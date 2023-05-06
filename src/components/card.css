@@ -1,0 +1,78 @@
+.location-card {
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    border-bottom:  1px solid #F5F5F5;;
+}
+
+.location-image > img {
+width: 125px;
+height: 168px;
+border-radius: 5px;
+margin: 30px;
+}
+
+.location-data {
+    font-size: 13px;
+    width: 326px;
+    padding-top: 30px;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+}
+
+.locationDot {
+    padding-top: 15px;
+    padding-right: 5px;
+    width: 7px;
+    height: 9.55px;
+    color: #F55A5A;;
+}
+
+.location > p {
+    padding-right: 10px;
+}
+
+.location > .country {
+    letter-spacing: 1.5px;
+    font-weight: 300;
+    color: black;
+}
+
+.location > .google-location {
+padding-top: 4px;
+font-weight: 400;
+font-size: 10.24px;
+line-height: 12px;
+text-decoration-line: underline;
+color: #918E9B;
+}
+
+.location > .google-location:hover {
+    cursor: pointer;
+}
+
+.location-name > h3 {
+    font-size: 25px;
+    margin-top: -10px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.location-date > p {
+font-weight: 700;
+font-size: 10.24px;
+line-height: 12px;
+
+color: #2B283A;
+}
+
+.location-info > p {
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+color: #2B283A;
+}
